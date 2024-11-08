@@ -1,10 +1,12 @@
     import React from 'react';
     import { Card, CardContent, Typography } from '@mui/material';
     import bg1 from '../../Assests/contactbg1.jpg';
+import Footer from './Footer';
 
     const ContactUs = () => {
     return (
-        <div
+        <div>
+ <div
         style={{
             backgroundImage: `url(${bg1})`,
             backgroundSize: 'cover',
@@ -33,6 +35,9 @@
             </CardContent>
         </Card>
         </div>
+        <Footer/>
+        </div>
+       
     );
     };
 

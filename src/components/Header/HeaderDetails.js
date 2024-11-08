@@ -51,6 +51,7 @@
                 <Typography>Contact Us</Typography>
                 </Link>
             </nav>
+            
         </div>
     );
     };
