@@ -1,9 +1,11 @@
     import React from 'react';
     import { Card, CardContent, Typography } from '@mui/material';
     import bg1 from '../../Assests/aboutmebg1.jpg';
+import Footer from './Footer';
 
     const AboutUs = () => {
     return (
+        <div>
         <div  style={{
             backgroundImage: `url(${bg1})`,
             backgroundSize: 'cover',
@@ -32,6 +34,8 @@
             </Typography>
             </CardContent>
         </Card>
+        </div>
+        <Footer/>
         </div>
     );
     };
