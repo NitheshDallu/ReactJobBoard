@@ -27,7 +27,7 @@
         </div>
             <nav className="flex gap-6">
                 <Link
-                style={navStyle(location.pathname === '/')}
+                style={navStyle(location.pathname === '/home')}
                 component={RouterLink}
                 to="/"
                 variant="body1"
